@@ -1,7 +1,7 @@
 # Wannier linear response
-[Wannier linear response](https://bitbucket.org/zeleznyj/wannier-linear-response/wiki/Home) is a code for calculating linear response properties based on a tight-binding Hamiltonian from Wannier90. Here I try to review the first version 0.10 to learn about how the linear response formulas are implemented. Further I use Matlab to rewrite main program to be familiar with the work flow and subroutines.
+[Wannier linear response](https://bitbucket.org/zeleznyj/wannier-linear-response/wiki/Home) is a code for calculating linear response properties based on a tight-binding Hamiltonian from Wannier90. Here I try to review the first version 0.10 to learn about how the linear response formulas are implemented. Further I use Matlab to rewrite the main program to be familiar with the work flow and subroutines.
 
-## lines.f90    
+## linres.f90    
 
 1. read the input: call read_input(inp), call read_structure(latt_vecs), call read_projs(projs)
 2. choose the tight binding model: allocate(wann_model::model)
