@@ -1,5 +1,5 @@
 # Wannier linear response
-Wannier linear response is a code for calculating linear response properties based on a tight-binding Hamiltonian from Wannier90. Here I tried to review the very first vercode
+Wannier linear response is a code for calculating linear response properties based on a tight-binding Hamiltonian from Wannier90. Here I tried to review the first version of this code to learn about how the linear response formulas are implemented.
 
 ## lines.f90    
 
