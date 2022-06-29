@@ -5,7 +5,7 @@
 
 1. read the input: call read_input(inp), call read_structure(latt_vecs), call read_projs(projs)
 2. choose the tight binding model: allocate(wann_model::model)
-3. choose the quantity to calculate: call linres_k(k,model,inp,Xo,projs,times), then call integrate_sum_1uc_para() to integrate linres_k over all the kpoints.
+3. choose the quantity to calculate: call linres_k(k,model,inp,Xo,projs,times), then call integrate_sum_1uc_para() to integrate linres_k() over all the kpoints.
 
 ## linres_k.f90
 
