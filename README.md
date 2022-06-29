@@ -25,6 +25,4 @@
 
 8. matrix elements of spin current tensor: call model%create_smat(smat), call mat_ele(svmat,Hk,op1_ele(:,:,3*(i-1)+j))
 
-9. loop over the even formulas
-
-10. loop over the odd formulas
+9. loop over the even and odd formulas
