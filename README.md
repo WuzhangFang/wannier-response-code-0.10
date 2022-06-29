@@ -1,4 +1,7 @@
-# lines.f90    
+# Wannier linear response
+Wannier linear response is a code for calculating linear response properties based on a tight-binding Hamiltonian from Wannier90. Here I tried to review the very first vercode
+
+## lines.f90    
 
 1. call read_input(inp)
 2. choose the tight binding model: allocate(wann_model::model)
